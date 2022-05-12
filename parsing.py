@@ -25,5 +25,5 @@ def get_prices(card_name):
         prod_sort = take_top_prices(prod)
         return format_message(prod_sort)
     except Exception:
-      return "Произошла ошибка"
+      return "Введите правильное наименование видеокарты. Например: 'gtx1050ti'"
 
