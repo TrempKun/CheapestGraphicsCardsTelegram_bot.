@@ -2,7 +2,7 @@ from email import message
 import telebot
 from parsing import get_prices
 
-token='5355898160:AAGvglhpYxOl86UyBM69MWu2M7db706OjRQ'
+
 bot=telebot.TeleBot(token)
 
 @bot.message_handler(content_types=["text"])
